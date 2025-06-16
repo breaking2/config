@@ -1,7 +1,6 @@
-{ pkgs, inputs, ... }:
+{ pkgs, ... }:
 {
   imports = [
-    ./config/ghostty
     ./config/nvim
     ./config/commands.nix
     ./config/firefox.nix
@@ -12,9 +11,6 @@
   ];
   # Install pkgs
   home.packages = with pkgs; [
-    # home-manager
-    home-manager
-
     # VPN
     tailscale
 
