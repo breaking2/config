@@ -4,6 +4,7 @@
     ./config/nvim
     ./config/commands.nix
     ./config/firefox.nix
+    ./config/fonts.nix
     ./config/git.nix
     ./config/starship.nix
     ./config/yazi.nix
@@ -20,6 +21,9 @@
     # Editor
     nano
     vscode
+
+    # Terminal
+    hyper
 
     # Claude
     claude-code
