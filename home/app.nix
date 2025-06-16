@@ -26,6 +26,9 @@
     nano
     vscode
 
+    # Claude
+    claude-code
+
     # Input Method
     skktools
 
