@@ -1,6 +1,6 @@
 { pkgs, ... }:
 {
-  environment.systemPackages = with pkgs; [
+  home.packages = with pkgs; [
     gh
     lazygit
   ];
@@ -16,9 +16,6 @@
       };
       credential = {
         "https://github.com".helper = "!gh auth git-credential";
-      };
-      ghq = {
-        root = "~/src";
       };
     };
   };
