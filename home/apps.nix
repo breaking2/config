@@ -12,9 +12,6 @@
   ];
   # Install pkgs
   home.packages = with pkgs; [
-    # VPN
-    tailscale
-
     # AppImage
     appimage-run
 
@@ -22,14 +19,8 @@
     nano
     vscode
 
-    # Terminal
-    wezterm
-
     # Claude
     claude-code
-
-    # Input Method
-    skktools
 
     # Password Manager
     bitwarden-desktop

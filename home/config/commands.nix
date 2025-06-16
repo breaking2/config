@@ -21,7 +21,6 @@
     rename
     #tty-clock: https://zenn.dev/nukokoi/articles/539017fa274cf4
     tty-clock
-    ookla-speedtest
     nkf
     tdf
     #nurl: https://github.com/nix-community/nurl
