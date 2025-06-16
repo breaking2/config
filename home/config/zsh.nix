@@ -61,9 +61,7 @@
       "neofetch" = "fastfetch";
       #参考サイト: https://discourse.nixos.org/t/using-nix-develop-opens-bash-instead-of-zsh/25075
       "nix-develop" = "nix develop -c $SHELL";
-      "hn" = "cd /etc/nixos && nix run home-manager -- switch --flake .#myHomeConfig";
-      "hm" = "home-manager switch";
-      "nr" = "sudo nixos-rebuild switch";
+      "hm" = "home-manager switch --flake .#breaking";
       "hg" = "home-manager generations";
       "gc" = "nix-collect-garbage";
       "clock" = "tty-clock -c -s";
