@@ -23,7 +23,7 @@
     vscode
 
     # Terminal
-    hyper
+    wezterm
 
     # Claude
     claude-code
