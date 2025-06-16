@@ -9,6 +9,9 @@
     };
     #ghostty
     ghostty.url = "github:ghostty-org/ghostty";
+    # nixvim
+    # GitHub:https://github.com/dc-tec/nixvim
+    nixvim.url = "github:dc-tec/nixvim";
   };
 
   outputs = inputs: {
