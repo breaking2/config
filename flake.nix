@@ -16,7 +16,7 @@
       homeConfigurations = {
         myHomeConfig = inputs.home-manager.lib.homeManagerConfiguration {
           pkgs = import inputs.nixpkgs {
-            system = "x86_64-linux";
+            system = "aarch64-linux";
             # Enable unfree pkgs
             config.allowUnfree = true;
           };
