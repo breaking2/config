@@ -6,7 +6,6 @@
     ./config/commands.nix
     ./config/firefox.nix
     ./config/git.nix
-    ./config/nix-ld.nix
     ./config/starship.nix
     ./config/yazi.nix
     ./config/zsh.nix
